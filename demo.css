@@ -1,0 +1,46 @@
+.item-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.item-container .details {
+    display: none;
+}
+.item-container .read-more {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.hidden-form {
+    display: none;
+    margin-top: 10px;
+}
+.hidden-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+.hidden-form input[type="text"] {
+    width: 200px;
+    margin-bottom: 10px;
+}
+.hidden-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.form-container input[type="text"], .form-container input[type="email"], .form-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/* .form-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+} */
+
+.form-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.form-container button a{
+    text-decoration: none;
+
+}
